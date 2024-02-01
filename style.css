@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1dd1a1;
+
+}
+.login{
+    position: relative;
+    padding: 50px;
+    background: #fff;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 10px 15px 15px 0px;
+}
+.login h2{
+    border-left: 15px solid #1dd1a1;
+    font-weight: 600;
+    line-height: 1em;
+    padding-left: 15px;
+    transition: 0.5s;
+    color: #333;
+}
+.login .inputbox{
+    position: relative;
+}
+.login .inputbox input{
+    position: relative;
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    border: 2px solid #555;
+    color: #333;
+    font-size: 1em;
+}
+.login .inputbox #btn{
+    border: none;
+    background: #1dd1a1;
+    transition: 0.5s;
+    font-size: 1.1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+.login .group {
+    display: flex;
+    justify-content: space-between;
+}
+.login .group a{
+    color: #333;
+    text-decoration: none;
+}
+.login .group a:nth-child(2){
+    font-weight: 500;
+    text-decoration: underline;
+}
